@@ -2,7 +2,7 @@
     @Autor Justin Calle
     Version: 1.0
  */
-export default function Header (){
+export default function Navbar (){
 
     return(
     <div>

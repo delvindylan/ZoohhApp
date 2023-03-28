@@ -1,9 +1,13 @@
 import logo from './logo.svg';
+import Navbar from "./components/Navbar";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <header>
+        <Navbar/>
+      </header>
       <header className="App-header">
         <h1>ZooApp von Justin Calle, Daniel Bischof, Delvin Ngauv</h1>
         <img src={logo} className="App-logo" alt="logo" />
