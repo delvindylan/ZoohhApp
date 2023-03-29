@@ -1,9 +1,13 @@
+import Navbar from "./components/Navbar";
 import './App.css';
 import Impressum from "./components/Impressum";
 
 function App() {
   return (
     <div className="App">
+      <header>
+        <Navbar/>
+      </header>
       <header className="App-header">
         <h1>ZooApp von Justin Calle, Daniel Bischof, Delvin Ngauv</h1>
 
