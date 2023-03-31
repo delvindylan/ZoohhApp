@@ -1,23 +1,28 @@
+import './css/App.css';
+import { Route, Routes } from 'react-router-dom'
+
+//Pages 
+import Home from './pages/Home.js';
+import Impressum from './pages/Impressum'
+import Ticket from './pages/Ticket'
+
+// Components
 import Navbar from "./components/Navbar";
-import './App.css';
-import Impressum from "./components/Impressum";
 
 function App() {
   return (
     <div className="App">
-      <header>
+            <header className="App-header">
         <Navbar/>
-      </header>
-      <header className="App-header">
-        <h1>ZooApp von Justin Calle, Daniel Bischof, Delvin Ngauv</h1>
-
-        <h2>Das wird unsere Zoo App</h2>
-
-          <h3>in developement</h3>
-
-          <Impressum></Impressum>
-
-      </header>
+        
+<div>
+        <Routes>
+        <Route path='/' element={ <Home/> }/>
+          <Route path='/Impressum' element={ <Impressum/> }/>
+          <Route path='/Tickets' element={ <Ticket/> }/>
+        </Routes>
+    </div>
+    </header>
     </div>
   );
 }

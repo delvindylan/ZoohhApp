@@ -1,13 +1,15 @@
-import Navbar from "../components/Navbar";
 
 function Ticket(){
 
+
+
+
     return(
         <div className="Ticket">
-            <Navbar/>
             <div className="Ticketliste">
-                
+                <div>Tickets</div>
             </div>
         </div>
     )
 }
+export default Ticket
