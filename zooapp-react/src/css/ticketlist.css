@@ -1,0 +1,14 @@
+.ticket{
+    background-color: gray;
+    list-style-type: none;
+    border-radius: 12px;
+    margin-bottom: 12px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.ticket p{
+    color: whitesmoke;
+    font-style: italic;
+}

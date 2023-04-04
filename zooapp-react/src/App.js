@@ -1,6 +1,8 @@
+
+import logo from './logo.svg';
 import Navbar from "./components/Navbar";
+import Ticketlist from "./components/Ticketlist";
 import './App.css';
-import Impressum from "./components/Impressum";
 
 function App() {
   return (
@@ -10,13 +12,18 @@ function App() {
       </header>
       <header className="App-header">
         <h1>ZooApp von Justin Calle, Daniel Bischof, Delvin Ngauv</h1>
-
-        <h2>Das wird unsere Zoo App</h2>
-
-          <h3>in developement</h3>
-
-          <Impressum></Impressum>
-
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
     </div>
   );
