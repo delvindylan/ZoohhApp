@@ -52,12 +52,12 @@ export default function Kontakt () {
                 </table>
             </form>
 
-            <h2>Deine Übermittelten Informationen sind: </h2>
+            <h3>Deine Übermittelten Informationen sind: </h3>
 
-            <h2> {firstname} </h2>
-            <h2> {lastname} </h2>
-            <h2> {email} </h2>
-            <h2> {message} </h2>
+            <h3> {firstname} </h3>
+            <h3> {lastname} </h3>
+            <h3> {email} </h3>
+            <h3> {message} </h3>
             
         </div>
 
