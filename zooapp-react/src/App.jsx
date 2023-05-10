@@ -8,6 +8,7 @@ import Ticket from './pages/Ticket'
 import Kontakt from './pages/Kontakt'
 // Components
 import Navbar from "./components/Navbar";
+import Help from './components/faq'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         </Routes>
     </div>
     </header>
+    <Help />
     </div>
   );
 }
